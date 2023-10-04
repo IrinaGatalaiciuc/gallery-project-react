@@ -6,4 +6,5 @@
 
 html, body {
     width: 99vw;
+    position: absolute;
 }

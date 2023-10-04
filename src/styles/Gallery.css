@@ -27,6 +27,10 @@
 
 
 @media screen and (max-width: 750px) {
+
+    .gallery {
+        height: 90vh;
+    }
     .btn-section {
         display: flex;
         flex-direction: column;
