@@ -11,13 +11,11 @@ function Gallery() {
     const url = `https://api.pexels.com/v1/search?query=${theme}`
 
     const [pic, setPic] = useState([])
-    console.log(url)
 
     function search(event) {
         const inputvalue = event.target.value
         const resultvalue = (inputvalue) ? inputvalue : "mixed"
         setTheme(resultvalue)
-        console.log(resultvalue)
     }
 
 
@@ -31,13 +29,9 @@ function Gallery() {
 
     }, [url])
 
-    console.log(pic)
-
     const pics = pic.map((p, i) => {
         return <Teamplayedimage key={p.id} image={p.src.portrait} description={p.alt} />
     })
-
-
 
     return (
         <div className="gallery">
