@@ -48,7 +48,6 @@ function Gallery() {
             <div className="gallery-section">
                 {pics}
             </div>
-            
         </div>
     )
 }

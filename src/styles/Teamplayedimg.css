@@ -1,6 +1,6 @@
 .img-gallery img {
     object-fit: cover;
     height: 350px;
-    width: 300px;
+    width: 98%;
     cursor: pointer;
 } 
